@@ -27,6 +27,7 @@ class dow {
         a.toBlob((blob) => {
             console.log('Blob gerado:', blob); // Verifica se o blob foi gerado
             
+            
             const file = new File([blob], `image.${cv}`, { type: "application/octet-stream" });
 
             const link = document.createElement('a');

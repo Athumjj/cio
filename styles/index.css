@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: Arial;
+}
+
+#inicial {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+
+#content hr {
+    margin-bottom: 70px;
+}
+
+#content button {
+    background-color: #2a25b0;
+    color: white;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 5px;
+    width: 120px;
+    font-size: 15px;
+}
